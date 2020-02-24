@@ -1,0 +1,36 @@
+{
+  "name": "protractortyprscriptcucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor JSFiles/conf.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "cucumbertest":"protractor JSFiles/cucumberconfig.js",
+    "precucumbertest": "tsc",
+    "webdriverupdate": "./node_modules/.bin/webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neelasandeep/protractortyprscriptcucumber.git"
+  },
+  "author": "sandeep neela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neelasandeep/protractortyprscriptcucumber/issues"
+  },
+  "homepage": "https://github.com/neelasandeep/protractortyprscriptcucumber#readme",
+  "dependencies": {
+    "jasmine": "^3.5.0",
+    "protractor": "^5.4.3",
+    "typescript": "^3.8.2",
+    "@types/jasmine": "~3.5.6",
+    "@types/jasminewd2": "~2.0.8",
+    "ts-node": "^8.6.2",
+    "@types/node": "^13.7.4",
+    "protractor-cucumber-framework": "^6.2.0",
+    "@types/cucumber": "^6.0.1",
+    "cucumber": "^6.0.5"
+  }
+}
